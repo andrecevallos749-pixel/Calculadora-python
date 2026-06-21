@@ -7,7 +7,7 @@ Esta primera parte del proyecto consiste en el análisis, diseño e implementaci
 ## Funcionalidades de la calculadora
 
 - Ingreso de un primer número.
-- Selección de una operación matemática.
+- Selección de una operación matemática las cuales unicamente son la suma y resta.
 - Ingreso de un segundo número.
 - Realización de operaciones básicas (suma y resta).
 - Visualización del resultado obtenido y de "FIN"
@@ -29,4 +29,4 @@ Esta primera parte del proyecto consiste en el análisis, diseño e implementaci
 
 ## Objetivo
 
-Aplicar los conceptos básicos de algoritmia y lógica de programación para la resolución de un problema sencillo, mediante el análisis de la solución propuesta, la elaboración de diagramas de flujo y el desarrollo de una primera versión funcional del código. De esta manera, se busca comprender las etapas iniciales del desarrollo de software, desde la planificación y representación de la lógica hasta su implementación en un lenguaje de programación.
+Aplicar los conceptos básicos de algoritmia y lógica de programación para la resolución de un problema sencillo, mediante el análisis de la solución propuesta, la elaboración de diagramas de flujo y el desarrollo de una primera versión funcional del código. De esta manera, se busca comprender las etapas iniciales del desarrollo de software, desde la planificación y representación de la lógica hasta su implementación en un lenguaje de programación.Asimismo, se busca familiarizar al estudiante con el uso de Git y GitHub para la gestión de versiones del proyecto, permitiendo registrar y organizar los avances que serán ampliados en la segunda etapa del desarrollo.

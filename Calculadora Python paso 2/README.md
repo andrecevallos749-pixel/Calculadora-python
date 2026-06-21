@@ -10,8 +10,11 @@ Esta segunda parte del proyecto consiste en la actualización y ampliación de l
 - Resta
 - Multiplicación
 - División
+- Potencia
+- Raíz cuadrada
 - Validación de operaciones ingresadas por el usuario.
 - Control de errores en divisiones por cero.
+- Contro de raíz cuadrada para numero negativos
 - Repetición de operaciones mediante bucles.
 - Visualización clara de los resultados obtenidos.
 
@@ -30,4 +33,4 @@ Esta segunda parte del proyecto consiste en la actualización y ampliación de l
 
 ## Objetivo
 
-Actualizar y ampliar la solución desarrollada en la primera etapa del proyecto, aplicando los conceptos fundamentales de lógica de programación para construir una calculadora más completa y estructurada. Para ello, se implementan operadores aritméticos, operadores lógicos, estructuras condicionales, bucles y mecanismos de validación, fortaleciendo la capacidad de análisis, diseño e implementación de algoritmos orientados a la resolución de problemas. Asimismo, se busca consolidar los conocimientos adquiridos durante el curso mediante la mejora progresiva del software y la incorporación de nuevas funcionalidades.
+Actualizar y ampliar la solución desarrollada en la primera etapa del proyecto, aplicando los conceptos fundamentales de lógica de programación para construir una calculadora más completa, robusta y estructurada. Para ello, se incorporan nuevas operaciones matemáticas como multiplicación, división, potencia y raíz cuadrada, así como el uso de operadores aritméticos, operadores lógicos, estructuras condicionales, bucles, validación de datos y manejo de errores mediante excepciones. Además, se busca fortalecer las habilidades de análisis, diseño e implementación de algoritmos, así como consolidar el uso de Git y GitHub para el control de versiones y la gestión progresiva del desarrollo del software.
