@@ -11,14 +11,42 @@ while continuar == "s":
     print("2. Resta (-)")
     print("3. Multiplicación (*)")
     print("4. División (/)")
+    print("5. Potencia (^)")
+    print("6. Raíz cuadrada (√)")
+    
+    # Solicitar y validar el primer numero  
+    
+    try:
+        numero1 = float(input("Ingrese el primer número: "))
+    except:
+        print("Error: Debe ingresar un número válido.")
+        continue
 
-    numero1 = float(input("Ingrese el primer número: "))
+    # Solicitar operación
+    operacion = input("Ingrese la operación (+, -, *, /, ^, √): ")
 
-    operacion = input("Ingrese la operación (+, -, *, /): ")
+    # Validar operación
+    if operacion not in ["+", "-", "*", "/", "^", "√"]:
+        print("Error: Debe ingresar una operación válida.")
+        continue
 
-    if operacion == "+" or operacion == "-" or operacion == "*" or operacion == "/":
+    # Operación de raíz cuadrada
+    if operacion == "√":
 
-        numero2 = float(input("Ingrese el segundo número: "))
+        if numero1 < 0:
+            print("Error: No se puede calcular la raíz cuadrada de un número negativo.")
+        else:
+            resultado = numero1 ** 0.5
+            print("Resultado:", resultado)
+
+    else:
+
+        # Validar segundo número
+        try:
+            numero2 = float(input("Ingrese el segundo número: "))
+        except:
+            print("Error: Debe ingresar un número válido.")
+            continue
 
         if operacion == "+":
             resultado = numero1 + numero2
@@ -36,14 +64,14 @@ while continuar == "s":
 
             if numero2 == 0:
                 print("Error: No se puede dividir para cero.")
-
             else:
                 resultado = numero1 / numero2
                 print("Resultado:", resultado)
 
-    else:
-        print("Operación no válida.")
+        elif operacion == "^":
+            resultado = numero1 ** numero2
+            print("Resultado:", resultado)
 
-    continuar = input("¿Desea realizar otra operación? (s/n): ")
+    continuar = input("¿Desea realizar otra operación? (s/n): ").lower()
 
 print("Gracias por usar la calculadora.")
