@@ -1,5 +1,4 @@
 print("CALCULADORA BÁSICA")
-print("por Andre Cevallos")
 
 # Ingresar primer número
 numero1 = float(input("Ingrese el primer número: "))
